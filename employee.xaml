@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfApp1project_food_fantacy_final.employee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1project_food_fantacy_final"
+        mc:Ignorable="d"
+        Title="employee" Height="600" Width="1000" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="313*"/>
+            <ColumnDefinition Width="184*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="src/Employee_area.jpg"/>
+        </Grid.Background>
+        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="63" Margin="459,0,0,0" TextWrapping="Wrap" Text="EMPLOYEE AREA" VerticalAlignment="Top" Width="390" Foreground="#FF00060B" FontSize="45" FontFamily="Microsoft YaHei" Grid.ColumnSpan="2"/>
+        <Button x:Name="button" Content="New Employee" HorizontalAlignment="Left" Height="116" Margin="395,92,0,0" VerticalAlignment="Top" Width="273" BorderBrush="White" Foreground="White"  FontSize="30" Grid.ColumnSpan="2" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy" Content="Complains " HorizontalAlignment="Left" Height="116" Margin="70.4,397,0,0" VerticalAlignment="Top" Width="281" BorderBrush="White"  FontSize="30" Foreground="White" Grid.Column="1" Click="Button_Copy_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy1" Content="Time Table" HorizontalAlignment="Left" Height="116" Margin="70.4,241,0,0" VerticalAlignment="Top" Width="281" BorderBrush="White"  FontSize="30" Foreground="White" Grid.Column="1" Click="Button_Copy1_Click" >
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy2" Content="Update Employee" HorizontalAlignment="Left" Height="116" Margin="395,241,0,0" VerticalAlignment="Top" Width="273" BorderBrush="White" FontSize="30" Foreground="White" Grid.ColumnSpan="2" Click="Button_Copy2_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy3" Content="Request Leaves" HorizontalAlignment="Left" Height="116" Margin="395,397,0,0" VerticalAlignment="Top" Width="273" BorderBrush="White" FontSize="30" Foreground="White" Grid.ColumnSpan="2" Click="Button_Copy3_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy4" Content="Employee Register" HorizontalAlignment="Left" Height="116" Margin="70.4,92,0,0" VerticalAlignment="Top" Width="281" BorderBrush="White" FontSize="30" Foreground="White" Grid.Column="1" Click="Button_Copy4_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

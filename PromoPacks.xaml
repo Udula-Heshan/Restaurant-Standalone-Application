@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfApp1project_food_fantacy_final.PromoPacks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1project_food_fantacy_final"
+        xmlns:materialDesign="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        mc:Ignorable="d"
+        Title="PromoPacks" Height="600" Width="1000" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="941*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="src/Promotions.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="82" Margin="360,10,0,0" TextWrapping="Wrap" Text="PROMOTIONS" VerticalAlignment="Top" Width="349" FontSize="50" Foreground="White"/>
+        <Button x:Name="button" HorizontalAlignment="Left" Height="228" Margin="25,103,0,0" VerticalAlignment="Top" Width="282" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="src/300only.jpg"/>
+            </Button.Background>
+            <Label x:Name="label" Content="LKR 300 ONLY" Height="54" Width="184" Background="Red" FontSize="25" Foreground="White" FontWeight="Bold"/>
+        </Button>
+        <Button x:Name="button_Copy" HorizontalAlignment="Left" Height="228" Margin="683,103,0,0" VerticalAlignment="Top" Width="284" Grid.ColumnSpan="2" Click="Button_Copy_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="src/800 only.jpg"/>
+            </Button.Background>
+            <Label x:Name="label2" Content="LKR 800 ONLY" Height="43" Width="175" Background="White" FontSize="25" Foreground="Red" FontWeight="Bold"/>
+
+        </Button>
+        <Button x:Name="button_Copy1" HorizontalAlignment="Left" Height="206" Margin="535,364,0,0" VerticalAlignment="Top" Width="339" Foreground="Red" FontWeight="Bold" Click="Button_Copy1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="src/500only.jpg"/>
+            </Button.Background>
+            <Label x:Name="label4" Content="LKR 500 ONLY" Height="42" Width="186" FontSize="25" Background="Red" Foreground="White"/>
+        </Button>
+        <Button x:Name="button_Copy2" HorizontalAlignment="Left" Height="206" Margin="150,364,0,0" VerticalAlignment="Top" Width="339" Click="Button_Copy2_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="src/3000only.jpg"/>
+            </Button.Background>
+            <Label x:Name="label3" Content="LKR 2300 ONLY" Height="44" Width="194" Background="Red" Foreground="White" FontSize="25" FontWeight="Bold"/>
+        </Button>
+        <Button x:Name="button_Copy3" HorizontalAlignment="Left" Height="228" Margin="343,103,0,0" VerticalAlignment="Top" Width="302" FontSize="30" Foreground="White" Click="Button_Copy3_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="src/Double-King-1-300x300.jpg"/>
+            </Button.Background>
+            <Label x:Name="label1" Content="LKR 500 ONLY" Height="49" Width="180" Background="White" Foreground="Red" FontWeight="Bold" FontSize="25"/>
+        </Button>
+
+    </Grid>
+</Window>

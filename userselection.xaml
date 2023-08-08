@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1project_food_fantacy_final.userselection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1project_food_fantacy_final"
+        xmlns:materialDesign="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        mc:Ignorable="d"
+        Title="userselection" Height="600" Width="1000" WindowStyle="None">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="src/UserSelect.jpg"/>
+        </Grid.Background>
+        <Button x:Name="button" Content="COSTOMER" HorizontalAlignment="Left" Height="122" Margin="285,40,0,0" VerticalAlignment="Top" Width="386" BorderBrush="White" FontSize="35" Foreground="#FFABAFC2" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy" Content="EMPLOYEE" HorizontalAlignment="Left" Height="122" Margin="285,407,0,0" VerticalAlignment="Top" Width="386" BorderBrush="White" FontSize="35" Foreground="#FF969DBD" Click="Button_Copy_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy1" Content="MANAGER" HorizontalAlignment="Left" Height="122" Margin="285,229,0,0" VerticalAlignment="Top" Width="386" BorderBrush="White" FontSize="35" Foreground="#FF9399B1" Click="Button_Copy1_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

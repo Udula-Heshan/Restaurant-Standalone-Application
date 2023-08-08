@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp1project_food_fantacy_final.services"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1project_food_fantacy_final"
+        xmlns:materialDesign="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        mc:Ignorable="d"
+        Title="services" Height="600" Width="1000" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="src/ServiceBackground.jpg" Opacity="0.9"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush TileMode="FlipXY" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <DockPanel HorizontalAlignment="Left" Height="277" LastChildFill="False" Margin="37,129,0,0" VerticalAlignment="Top" Width="256" Background="#FFE0DCC4">
+            <DockPanel Height="277" LastChildFill="False" VerticalAlignment="Top" Width="255">
+                <DockPanel.Background>
+                    <ImageBrush ImageSource="src/Birthday.jpg"/>
+                </DockPanel.Background>
+            </DockPanel>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="277" LastChildFill="False" Margin="707,129,0,0" VerticalAlignment="Top" Width="256" Background="#FFE0DCC4">
+            <DockPanel Height="272" LastChildFill="False" VerticalAlignment="Top" Width="256">
+                <DockPanel.Background>
+                    <ImageBrush ImageSource="src/Family.jpg"/>
+                </DockPanel.Background>
+            </DockPanel>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="277" LastChildFill="False" Margin="370,129,0,0" VerticalAlignment="Top" Width="256" Background="#FFE0DCC4">
+            <DockPanel Height="270" LastChildFill="False" VerticalAlignment="Top" Width="256">
+                <DockPanel.Background>
+                    <ImageBrush ImageSource="src/Frozen.png"/>
+                </DockPanel.Background>
+            </DockPanel>
+        </DockPanel>
+        <Button x:Name="button" Content="Bithday Celebration" HorizontalAlignment="Left" Height="88" Margin="23,451,0,0" VerticalAlignment="Top" Width="270" BorderBrush="Black" Foreground="#FF0B0303" FontSize="30" Background="#FFE0DCC4" Click="Button_Click"/>
+        <Button x:Name="button_Copy" Content="Family Meet Up" HorizontalAlignment="Left" Height="88" Margin="707,451,0,0" VerticalAlignment="Top" Width="254" BorderBrush="Black" Foreground="Black" FontSize="30" Background="#FFE0DCC4" Click="Button_Copy_Click"/>
+        <Button x:Name="button_Copy1" Content="Frozen Friends" HorizontalAlignment="Left" Height="88" Margin="370,451,0,0" VerticalAlignment="Top" Width="254" BorderBrush="Black" Foreground="Black" FontSize="30" Background="#FFE0DCC4" Click="Button_Copy1_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="72" Margin="400,10,0,0" TextWrapping="Wrap" Text="SERVICES" VerticalAlignment="Top" Width="185" FontSize="40"/>
+
+    </Grid>
+</Window>

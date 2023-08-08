@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1project_food_fantacy_final.ManagementView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1project_food_fantacy_final"
+        xmlns:materialDesign="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        mc:Ignorable="d"
+        Title="ManagementView" Height="600" Width="1000" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/src/req.jpg"/>
+    </Window.Background>
+    <Grid>
+        <DataGrid x:Name="Grid" HorizontalAlignment="Left" Height="326" Margin="64,220,0,0" VerticalAlignment="Top" Width="877"/>
+        <Label Content="Manager Menu" HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" Width="321" FontSize="30" FontWeight="Bold"/>
+        <Button Name="btn_payDetails" Content="Payment Details" HorizontalAlignment="Left" Margin="88,118,0,0" VerticalAlignment="Top" Width="200" Height="50" FontSize="20" Click="Btn_payDetails_Click"/>
+        <Button x:Name="btn_cusDetails" Content="Customer Details" HorizontalAlignment="Left" Margin="389,119,0,0" VerticalAlignment="Top" Width="200" Height="49" FontSize="20" Click="Btn_cusDetails_Click"/>
+        <Button x:Name="btn_empDetails" Content="Employee Details" HorizontalAlignment="Left" Margin="716,118,0,0" VerticalAlignment="Top" Width="200" Height="49" FontSize="20" Click="Btn_empDetails_Click"/>
+
+    </Grid>
+</Window>
+
